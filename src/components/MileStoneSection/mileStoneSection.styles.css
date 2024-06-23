@@ -1,0 +1,41 @@
+.mileStoneSection {
+  display: flex;
+  margin: 6rem 0;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  border-radius: 0.6rem;
+  justify-content: space-between;
+  background-color: var(--white2);
+}
+
+.mileStoneTextContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.mileStoneTextHeader {
+  font-size: 40px;
+  line-height: 30px;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* mobile styles */
+@media (max-width: 767px) {
+  .mileStoneSection {
+    margin: 3rem 0;
+    padding: 1rem 0.6rem;
+  }
+
+  .mileStoneTextHeader {
+    font-size: 25px;
+    line-height: 10px;
+    padding-bottom: 0.75rem;
+  }
+
+  .mileStoneSubText {
+    font-size: 11px;
+  }
+}
