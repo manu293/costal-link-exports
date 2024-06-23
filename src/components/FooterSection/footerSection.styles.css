@@ -1,0 +1,140 @@
+.footerLetsGetStarted {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../public/images/containers_footer.webp");
+}
+
+.footerOverlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.footerImageContentContainer {
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerImageHeaderText {
+  font-size: 65px;
+  font-weight: 500;
+  padding-left: 8px;
+  white-space: wrap;
+  text-align: center;
+  color: var(--white1);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footerGetStartedContainer {
+  width: 10rem;
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange1);
+}
+
+.footerGetStartedText {
+  color: var(--white1);
+  padding-right: 0.5rem;
+}
+
+.footerInfoSection {
+  width: 100%;
+  background-color: var(--black0);
+}
+
+.footerInfoSubSection {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem 0 1rem;
+  justify-content: space-between;
+}
+
+.footerIntoCopyRightText {
+  color: var(--white1);
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.footerInfoSubContainer {
+  width: 34%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerInfoSubContainerHeaderText {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 1rem;
+  letter-spacing: 5px;
+  color: var(--white1);
+}
+
+.footerInfoSubContainerHeaderSubText {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0.7rem;
+  text-align: center;
+  color: var(--white2);
+}
+
+.footerBusinessDetailsSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerBusinessDetailSubSection {
+  text-align: left;
+}
+
+.footerBusinessDetailSubSection:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footerBusinessDetailSubSectionText {
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 0.5rem;
+}
+
+.footerBusinessDetailSubSectionText2 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* mobile styles */
+@media (max-width: 767px) {
+  .footerImageHeaderText {
+    font-size: 35px;
+  }
+
+  .footerInfoSubSection {
+    flex-direction: column;
+  }
+
+  .footerInfoSubContainer {
+    width: 100%;
+  }
+
+  .footerIntoCopyRightText {
+    text-align: center;
+  }
+}
