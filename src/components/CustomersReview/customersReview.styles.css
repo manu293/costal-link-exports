@@ -1,0 +1,121 @@
+.customersReviewContainer {
+  width: 100%;
+  display: flex;
+  margin: 4rem 0 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customersReviewHeader {
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 110px;
+  padding-left: 8px;
+  white-space: wrap;
+  text-align: left;
+  display: inline-block;
+}
+
+.customerReviewBreakText {
+  display: block;
+}
+
+.customersReviewSection {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.customerReviewProfileSection {
+  display: flex;
+}
+
+.customerReviewProfileImageContainer {
+  width: 9rem;
+  height: 9rem;
+  overflow: hidden;
+  position: relative;
+  margin-right: 2rem;
+}
+
+.customerReviewProfileImage {
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+.customerReviewProfileNameContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customerReviewProfileNameText {
+  font-size: 26px;
+  white-space: wrap;
+  color: var(--orange1);
+  margin-bottom: 0.3rem;
+  display: inline-block;
+}
+
+.customerReviewProfileNameSubText {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: wrap;
+  display: inline-block;
+}
+
+.customerReviewSection {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 1.5rem 1.7rem;
+  background-color: var(--white2);
+}
+
+.customerReviewText {
+  font-size: 12px;
+  white-space: wrap;
+  text-align: left;
+  display: inline-block;
+}
+
+/* mobile styles */
+@media (max-width: 767px) {
+  .customersReviewContainer {
+    display: flex;
+    margin: 0 0 2rem 0;
+    flex-direction: column;
+  }
+
+  .customerReviewBreakText {
+    display: inline;
+    padding-left: 7px;
+  }
+
+  .customersReviewHeader {
+    padding: 0;
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .customersReviewSection {
+    width: 100%;
+  }
+
+  .customerReviewProfileImageContainer {
+    margin-right: 1rem;
+  }
+
+  .customerReviewProfileImage {
+    object-fit: fill;
+  }
+
+  .customerReviewSection {
+    padding: 0.75rem 0.9rem;
+  }
+}
