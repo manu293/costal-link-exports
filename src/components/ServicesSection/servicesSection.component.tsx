@@ -13,9 +13,7 @@ import "./serviceSection.styles.css";
 const ServiceSection = () => {
   return (
     <div>
-      <h1 className="serviceSectionHeader">
-        Discover The Full Range Of Services We Offer For Shipping
-      </h1>
+      <h1 className="serviceSectionHeader">Logistics and Reach</h1>
       <div className="serviceInfoSectionContainer">
         <div className="serviceInfoContainer">
           <div className="serviceInfoSubContainer">

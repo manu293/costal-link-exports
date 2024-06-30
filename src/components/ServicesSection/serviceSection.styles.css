@@ -1,6 +1,8 @@
 .serviceSectionHeader {
+  width: 100%;
   font-size: 80px;
-  font-weight: 500;
+  margin-top: 5rem;
+  font-weight: 600;
   padding-left: 8px;
   white-space: wrap;
   text-align: center;
