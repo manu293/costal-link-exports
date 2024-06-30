@@ -1,6 +1,7 @@
 .commitmentSectionHeader {
+  width: 100%;
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 8px;
   white-space: wrap;
   margin-top: 1rem;
@@ -22,11 +23,24 @@
 }
 
 .commitmentSubInfoSection {
-  font-size: 45px;
-  font-weight: 500;
+  font-size: 90px;
+  margin-top: 2rem;
+  font-weight: 600;
   line-height: 55px;
   padding-left: 8px;
   white-space: wrap;
+  padding-bottom: 2rem;
+  display: inline-block;
+}
+
+.commitmentSubInfoSection2 {
+  font-size: 90px;
+  margin-top: 6rem;
+  font-weight: 600;
+  line-height: 55px;
+  padding-left: 8px;
+  white-space: wrap;
+  padding-bottom: 2rem;
   display: inline-block;
 }
 
@@ -45,20 +59,65 @@
 .commitmentSectorsContainer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1.5rem;
+  margin-top: 4rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .commitmentSectors {
-  width: 18rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.commitmentSectorsCircle {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange1);
+}
+
+.commitmentSectorsSubTitle {
   font-size: 20px;
   font-weight: 500;
+  margin-top: 1.5rem;
   text-align: center;
-  color: var(--white1);
+}
+
+.commitmentProductsSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.commitmentProductContainer {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.commitmentProductImage {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
   border-radius: 1rem;
-  padding: 1rem 1.5rem;
-  background-color: var(--black2);
+}
+
+.commitmentProductSubTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.commitmentProductContainer:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 3rem;
 }
 
 /* mobile styles */
@@ -76,8 +135,21 @@
   }
 
   .commitmentSubInfoSection {
+    width: 100%;
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
+  }
+
+  .commitmentSubInfoSection2 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .commitmentSectorsContainer {
+    justify-content: space-between;
   }
 
   .commitmentSubInfoSubSection {
@@ -90,6 +162,22 @@
     width: 11rem;
     font-size: 11px;
     padding: 1rem 0;
+  }
+
+  .commitmentProductsSection {
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .commitmentProductSubTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .commitmentProductContainer {
+    width: 45%;
   }
 
   .commitmentSectors:nth-last-child(-n + 2) {
