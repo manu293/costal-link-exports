@@ -1,7 +1,7 @@
 .partnersSectionHeader {
   font-size: 90px;
-  font-weight: 500;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  font-weight: 600;
   line-height: 110px;
   padding-left: 8px;
   white-space: wrap;
@@ -65,6 +65,30 @@
   color: var(--white1);
 }
 
+.advisorSectionHeader {
+  font-size: 90px;
+  margin-top: 1rem;
+  font-weight: 600;
+  line-height: 110px;
+  padding-left: 8px;
+  white-space: wrap;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.advisorInfoSection {
+  width: 65%;
+  display: flex;
+  padding: 0 0.8rem;
+  margin: 1rem 0 4rem 0;
+  justify-content: space-between;
+}
+
+.advisorName {
+  font-style: italic;
+}
+
 /* mobile styles */
 @media (max-width: 767px) {
   .partnersSectionHeader {
@@ -74,6 +98,19 @@
     line-height: 36px;
     text-align: center;
     margin-bottom: 1.5rem;
+  }
+
+  .advisorSectionHeader {
+    width: 100%;
+    padding: 0;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .advisorInfoSection {
+    width: 100%;
   }
 
   .partnersInfoSection {

@@ -15,12 +15,7 @@ const PartnersSection = () => {
       <div className="partnersInfoSection">
         <div className="partnersInfoSectionContainer">
           <h3 className="partnersHeaderText">Nagaraja S Shetty</h3>
-          <span className="partnersHeaderSubText">Founder 1</span>
           <hr className="partnersDividerLine" />
-          <span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </span>
           <div className="partnersIconSection">
             <div
               className="partnersIconContainer"
@@ -38,12 +33,7 @@ const PartnersSection = () => {
 
         <div className="partnersInfoSectionContainer">
           <h3 className="partnersHeaderText">Vinoda S Shetty</h3>
-          <span className="partnersHeaderSubText">Founder 2</span>
           <hr className="partnersDividerLine" />
-          <span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </span>
           <div className="partnersIconSection">
             <div
               className="partnersIconContainer"
@@ -61,12 +51,7 @@ const PartnersSection = () => {
 
         <div className="partnersInfoSectionContainer">
           <h3 className="partnersHeaderText">Dhanush G Hegde</h3>
-          <span className="partnersHeaderSubText">Founder 3</span>
           <hr className="partnersDividerLine" />
-          <span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </span>
           <div className="partnersIconSection">
             <div
               className="partnersIconContainer"
@@ -81,6 +66,17 @@ const PartnersSection = () => {
             </a>
           </div>
         </div>
+      </div>
+      <h1 className="advisorSectionHeader">Advisor</h1>
+      <div className="advisorInfoSection">
+        <p>
+          Coastal Link Exports is guided and advised by{" "}
+          <span className="advisorName">K Ravindran</span>, who has vast
+          experience in international trade for several decades. He has a
+          significant export performance history and has contributed to the
+          export of agricultural commodities, engineering goods, garments and
+          textiles, FMCG, plastic and allied products, chemicals, etc.
+        </p>
       </div>
     </div>
   );
