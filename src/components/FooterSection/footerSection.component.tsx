@@ -3,6 +3,7 @@
 // imports
 import React from "react";
 import { LuContact } from "react-icons/lu";
+import { SiHdfcbank } from "react-icons/si";
 import { TiDocumentText } from "react-icons/ti";
 import { FaAnglesRight } from "react-icons/fa6";
 import { LiaMapMarkerAltSolid } from "react-icons/lia";
@@ -96,9 +97,7 @@ const FooterSection = () => {
           </div>
           <div className="footerInfoSubContainer">
             <TiDocumentText size={45} color="#f17e01" />
-            <h5 className="footerInfoSubContainerHeaderText">
-              Business Details
-            </h5>
+            <h5 className="footerInfoSubContainerHeaderText">Details</h5>
             <div className="footerInfoSubContainerHeaderSubText">
               <div className="footerBusinessDetailsSection">
                 <span className="footerBusinessDetailSubSection">
@@ -119,6 +118,15 @@ const FooterSection = () => {
                 </span>
               </div>
             </div>
+          </div>
+          <div className="footerInfoSubContainer">
+            <SiHdfcbank size={45} color="#f17e01" />
+            <h5 className="footerInfoSubContainerHeaderText">
+              Banking Partner
+            </h5>
+            <p className="footerInfoSubContainerHeaderSubText">
+              We partner and bank with HDFC Bank Limited
+            </p>
           </div>
         </div>
         <p className="footerIntoCopyRightText">© 2024 Costal Link Exports</p>
