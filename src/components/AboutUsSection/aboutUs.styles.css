@@ -40,12 +40,14 @@
   width: 70%;
   z-index: 1;
   display: flex;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-top: 2rem;
-  line-height: 25px;
+  line-height: 45px;
   text-align: center;
   position: relative;
   color: var(--white1);
+  letter-spacing: 2px;
 }
 
 .aboutUsImageContainer {
@@ -63,7 +65,7 @@
     width: 100%;
     margin-bottom: 0;
     font-size: 36px;
-    margin-top: 8rem;
+    margin-top: 7rem;
     line-height: 50px;
     margin-bottom: 1.5rem;
   }
@@ -80,6 +82,8 @@
 
   .aboutUsSectionSubHeader {
     width: 90%;
-    margin-top: 0.5rem;
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 25px;
   }
 }

@@ -13,7 +13,7 @@ const AboutUsSection = () => {
         <p className="aboutUsSectionSubHeader">
           Your Premier Source for Spices and its derivatives, Coconut and its
           derivatives, Fresh fruits and vegetables, Seafood, and a wide range of
-          processed food.
+          processed foods
         </p>
       </div>
     </div>
