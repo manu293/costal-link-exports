@@ -45,17 +45,6 @@ const FooterSection = () => {
               <div className="footerBusinessDetailsSection">
                 <span className="footerBusinessDetailSubSection">
                   <span className="footerBusinessDetailSubSectionText">
-                    Ms. Vinoda S Shetty:
-                  </span>
-                  <a
-                    href={`tel:+919964714516`}
-                    className="footerBusinessDetailSubSectionText2"
-                  >
-                    +91 99647 14516
-                  </a>
-                </span>
-                <span className="footerBusinessDetailSubSection">
-                  <span className="footerBusinessDetailSubSectionText">
                     Mr. Nagaraja S Shetty:
                   </span>
                   <a
@@ -63,17 +52,6 @@ const FooterSection = () => {
                     className="footerBusinessDetailSubSectionText2"
                   >
                     +91 82771 85463
-                  </a>
-                </span>
-                <span className="footerBusinessDetailSubSection">
-                  <span className="footerBusinessDetailSubSectionText">
-                    Mr. Dhanush G Hegde:
-                  </span>
-                  <a
-                    href={`tel:+919353083820`}
-                    className="footerBusinessDetailSubSectionText2"
-                  >
-                    +91 93530 83820
                   </a>
                 </span>
                 <span className="footerBusinessDetailSubSection">

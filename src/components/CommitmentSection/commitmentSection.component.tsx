@@ -67,7 +67,7 @@ const CommitmentSection = () => {
       </p>
 
       <h3 className="commitmentSubInfoSection2">Products</h3>
-      <div className="commitmentProductsSection">
+      <div className="commitmentProductsSection" id="products">
         <div className="commitmentProductContainer">
           <Image
             src={product1Image}
