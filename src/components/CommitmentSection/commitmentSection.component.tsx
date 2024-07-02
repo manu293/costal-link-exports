@@ -23,17 +23,6 @@ import "./commitmentSection.styles.css";
 const CommitmentSection = () => {
   return (
     <div id="commitment">
-      <h1 className="commitmentSectionHeader">
-        Trust our experienced team for secure handling of your cargo
-      </h1>
-      <div className="commitmentSectionBannerImageContainer">
-        <Image
-          fill
-          alt="cargos"
-          src={cargoBgImage}
-          className="commitmentSectionBannerImage"
-        />
-      </div>
       <h3 className="commitmentSubInfoSection">
         Partnership
         <br />
@@ -65,7 +54,7 @@ const CommitmentSection = () => {
           <div className="commitmentSectorsCircle">
             <BiSolidTShirt color="#fff" size={30} />
           </div>
-          <p className="commitmentSectorsSubTitle">Garment goods</p>
+          <p className="commitmentSectorsSubTitle">Garments & Textiles</p>
         </div>
       </div>
       <p className="commitmentSubInfoSubSection">

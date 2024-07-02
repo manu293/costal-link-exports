@@ -46,10 +46,10 @@
 
 .commitmentSubInfoSubSection {
   width: 80%;
-  font-size: 15px;
+  font-size: 22px;
   margin-top: 1rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 32px;
   padding-left: 8px;
   white-space: wrap;
   color: var(--black2);
@@ -159,7 +159,7 @@
   }
 
   .commitmentSectors {
-    width: 10.5rem;
+    width: 10rem;
     font-size: 11px;
     padding: 1rem 0;
   }
@@ -187,5 +187,9 @@
   .commitmentProductImage {
     width: 100%;
     height: 100%;
+  }
+
+  .commitmentSectorsSubTitle {
+    font-size: 17px;
   }
 }
