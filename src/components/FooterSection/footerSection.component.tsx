@@ -16,9 +16,6 @@ const FooterSection = () => {
     <footer>
       <div className="footerLetsGetStarted">
         <div className="footerImageContentContainer">
-          <h1 className="footerImageHeaderText">
-            Let&rsquo;s Start Shipping Your Goods
-          </h1>
           <div
             className="footerGetStartedContainer"
             onClick={() =>
@@ -37,8 +34,8 @@ const FooterSection = () => {
             <LiaMapMarkerAltSolid size={45} color="#f17e01" />
             <h5 className="footerInfoSubContainerHeaderText">Office</h5>
             <p className="footerInfoSubContainerHeaderSubText">
-              Centre For Basic Sciences Building, Kasturba Medical College,
-              Madhav Nagar, Manipal, Karnataka 576119
+              1st Ananth Nagar, opp. Madhava Krupa school school back road,
+              Manipal - 576104
             </p>
           </div>
           <div id="contact" className="footerInfoSubContainer">
@@ -126,6 +123,10 @@ const FooterSection = () => {
             </h5>
             <p className="footerInfoSubContainerHeaderSubText">
               We partner and bank with HDFC Bank Limited
+            </p>
+            <p className="footerInfoSubContainerHeaderSubText">
+              Centre For Basic Sciences Building, Kasturba Medical College,
+              Madhav Nagar, Manipal, Karnataka - 576119
             </p>
           </div>
         </div>

@@ -12,13 +12,13 @@
 }
 
 .headerTitle {
-  width: 14rem;
-  height: 6rem;
+  width: 12rem;
+  height: 12rem;
   position: relative;
 }
 
 .headerImage {
-  object-fit: none;
+  object-fit: contain;
 }
 
 .headerLinkText {
@@ -36,13 +36,13 @@
   }
 
   .headerTitle {
-    width: 10rem;
-    height: 4rem;
+    width: 9rem;
+    height: 9rem;
   }
 
-  .headerImage {
+  /* .headerImage {
     object-fit: cover;
-  }
+  } */
 
   .headerLinkText:not(:last-child) {
     display: none;

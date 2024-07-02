@@ -14,6 +14,15 @@ const PartnersSection = () => {
       <h1 className="partnersSectionHeader">Meet the partners</h1>
       <div className="partnersInfoSection">
         <div className="partnersInfoSectionContainer">
+          <h3 className="partnersHeaderText">Vinoda S Shetty</h3>
+          <hr className="partnersDividerLine" />
+        </div>
+
+        <div className="partnersInfoSectionContainer">
+          <h3 className="partnersHeaderText">Dhanush G Hegde</h3>
+          <hr className="partnersDividerLine" />
+        </div>
+        <div className="partnersInfoSectionContainer">
           <h3 className="partnersHeaderText">Nagaraja S Shetty</h3>
           <hr className="partnersDividerLine" />
           <div className="partnersIconSection">
@@ -30,46 +39,10 @@ const PartnersSection = () => {
             </a>
           </div>
         </div>
-
-        <div className="partnersInfoSectionContainer">
-          <h3 className="partnersHeaderText">Vinoda S Shetty</h3>
-          <hr className="partnersDividerLine" />
-          <div className="partnersIconSection">
-            <div
-              className="partnersIconContainer"
-              onClick={() =>
-                (window.location.href = `mailto:coastallinkexports@gmail.com`)
-              }
-            >
-              <MdOutlineMailOutline size={22} />
-            </div>
-            <a className="partnersIconContainer" href={`tel:+919964714516`}>
-              <MdOutlineLocalPhone size={22} />
-            </a>
-          </div>
-        </div>
-
-        <div className="partnersInfoSectionContainer">
-          <h3 className="partnersHeaderText">Dhanush G Hegde</h3>
-          <hr className="partnersDividerLine" />
-          <div className="partnersIconSection">
-            <div
-              className="partnersIconContainer"
-              onClick={() =>
-                (window.location.href = `mailto:coastallinkexports@gmail.com`)
-              }
-            >
-              <MdOutlineMailOutline size={22} />
-            </div>
-            <a className="partnersIconContainer" href={`tel:+919353083820`}>
-              <MdOutlineLocalPhone size={22} />
-            </a>
-          </div>
-        </div>
       </div>
       <h1 className="advisorSectionHeader">Advisor</h1>
       <div className="advisorInfoSection">
-        <p>
+        <p className="advisorInfoNameSection">
           Coastal Link Exports is guided and advised by{" "}
           <span className="advisorName">K Ravindran</span>, who has vast
           experience in international trade for several decades. He has a

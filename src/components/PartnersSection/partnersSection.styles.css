@@ -78,11 +78,23 @@
 }
 
 .advisorInfoSection {
-  width: 65%;
+  width: 80%;
   display: flex;
   padding: 0 0.8rem;
   margin: 1rem 0 4rem 0;
   justify-content: space-between;
+}
+
+.advisorInfoNameSection {
+  font-size: 22px;
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 32px;
+  padding-left: 8px;
+  white-space: wrap;
+  margin-bottom: 4rem;
+  color: var(--black2);
+  display: inline-block;
 }
 
 .advisorName {
@@ -111,6 +123,7 @@
 
   .advisorInfoSection {
     width: 100%;
+    padding-left: 0;
   }
 
   .partnersInfoSection {
@@ -119,5 +132,11 @@
 
   .partnersInfoSectionContainer {
     width: 100%;
+  }
+
+  .advisorInfoNameSection {
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 18px;
   }
 }
