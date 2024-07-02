@@ -23,7 +23,7 @@
 
 .headerLinkText {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   margin-right: 2rem;
   color: var(--white1);
@@ -40,9 +40,9 @@
     height: 9rem;
   }
 
-  /* .headerImage {
-    object-fit: cover;
-  } */
+  .headerLinkText {
+    font-size: 20px;
+  }
 
   .headerLinkText:not(:last-child) {
     display: none;

@@ -21,8 +21,8 @@ const HeaderSection = () => {
         />
       </a>
       <div className="headerLinkContainer">
-        <Link className="headerLinkText" href="#commitment">
-          Commitment
+        <Link className="headerLinkText" href="#products">
+          Products
         </Link>
         <Link className="headerLinkText" href="#partners">
           Partners
