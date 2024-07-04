@@ -1,6 +1,6 @@
 .commitmentSectionHeader {
   width: 100%;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 600;
   padding-left: 8px;
   white-space: wrap;
@@ -23,7 +23,7 @@
 }
 
 .commitmentSubInfoSection {
-  font-size: 90px;
+  font-size: 65px;
   margin-top: 2rem;
   font-weight: 600;
   line-height: 55px;
@@ -34,7 +34,7 @@
 }
 
 .commitmentSubInfoSection2 {
-  font-size: 90px;
+  font-size: 65px;
   margin-top: 6rem;
   font-weight: 600;
   line-height: 55px;
